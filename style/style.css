@@ -136,6 +136,10 @@ header {
   border: none;
   padding: 15px 32px;
   color: #fff;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+
 }
 .section2-info * {
   margin-bottom: 10px;
@@ -355,6 +359,13 @@ span {
   padding-bottom: 20px;
 }
 
+#bag1:hover{
+    transform: scale(1.1) rotate(2deg);
+    transition: all 0.6s;
+}
+
+
+
 .section6-1-images {
   display: flex;
   gap: 10px;
@@ -375,6 +386,7 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 .section7-content * {
   padding-bottom: 15px;
@@ -396,6 +408,7 @@ input {
 }
 .input-btn {
   display: flex;
+  margin-bottom: 20px;
 }
 .btn {
   border-top-right-radius: 50px;
